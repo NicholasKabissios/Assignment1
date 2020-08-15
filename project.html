@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <meta charset="utf-8" />
+    <title>Assignment 1</title>
+    <link rel="stylesheet" href="styles.css">
+
+  </head>
+
+
+
+
+  <body>
+
+<div class="container">
+   <div class="nav-wrapper">
+
+<div class="left-side">
+
+  <div class="nav-link-wrapper">
+    <a href="index.html">Personal Information</a>
+    </div>
+
+      <div class="nav-link-wrapper">
+    <a href="interests.html">Interests in IT</a>
+    </div>
+
+    <div class="nav-link-wrapper">
+  <a href="idealjob.html">Ideal Job</a>
+  </div>
+
+  <div class="nav-link-wrapper">
+<a href="personalprofile.html">Personal Profile</a>
+</div>
+
+<div class="nav-link-wrapper">
+<a href="project.html">Project idea</a>
+</div>
+</div>
+
+<div class="right-side">
+  <div class="brand">
+    <div>Nicholas Kabissios</div>
+    </div>
+</div>
+</div>
+</div>
+
+<div class="content">
+
+       <div class="profile-content-wrapper">
+<h1>My Music Diary - My project idea</h1>
+
+<h2>Overview</h2>
+<p>My project idea is for a sorting system that stores music for the user to listen to. The main audience for the project are people who have a large backlog of music to listen to and find it hard to follow, as well as having the desire to have their music (albums and songs) sorted in a simple and easily accessed way. The aim of the project is to allow the users to easily follow their lists of music to listen to and be able to sort it in ways such as length and genre. </p>
+
+<h2>Motivation</h2>
+<p>In many online communities based around music discussion and creation, many users often can be overwhelming with the amount of music they are sent and asked to listen to. In my personal experience, I have repeatedly forgotten or neglected albums and songs that I would have preferred to listen to earlier. I have also observed that the people I talked to in these music-based communities have a similar problem, in which everyone shares and recommends music and the amount is too much to follow. These leads many people, including myself to create lists in things such as notepad documents. These documents do help; however, they are not a permanent solution and leave a lot to be desired.</p>
+
+<h2>Description</h2>
+<p>The project will be created as a software with a user-friendly GUI, having labels which clearly indicate the functions for each object. The largest element in the application will be the actual list displaying the music that the user has input, and by default this will be blank until the user has input new music or opened a file. This will be sorted using buttons which will appear to its side. When the buttons are pressed the list will be sorted from top to bottom depending on which button was pressed. The list will be sorted alphabetically (by name), by genre or by length (in minutes), and each of these functions will correspond to a button. Sorting by genre will be alphabetical, which allows for music of the same genre to be grouped together in a similar area so it can be navigated easier.</p>
+<p>Apart from buttons for sorting there will also be two buttons for reading and writing to a text file. One of the buttons will be labelled as 'Open file', which when pressed will show an open file dialog so the user can choose a .txt file to open and display in the list. The other button will be labelled as 'Save file' and when pressed will initialise a save file dialog, where the user can select a location on the computer to save the file to or overwrite an existing file.</p>
+<p>The program will take inputs from the user to manually add music to their list, which will once again be done through a button input, labelled 'Enter music'. When pressed the button will run the user through a series of popup input boxes with messages that runs the user through what they should be entering so to avoid any errors caused directly from input. Once the sequence of input boxes has finished taking the user's input, the data will be added to the current list and sorted depending on the last chosen sorting method (default being alphabetical). </p>
+<p>Regarding aesthetics, the program will initially be minimal and barebones, as the main objective is the sort out and sufficiently execute the functions, however, with future iterations this could potentially change. Through taking user feedback I plan to create specific themes that can be selected in the application's window that restarts the program with whatever theme was selected. This would take the form of a dropdown menu to select the theme and an additional button to confirm the change.</p>
+<p>Finally, another button will be used to close the program, which is there to give the user a prompt so they can choose to save the file before closing, so to avoid any loss in progress and additions they may have made.</p>
+
+<h2>Tools and Technologies</h2>
+<p>The initial versions of the software will be in the form of a python script, meaning that the users of the program will be required to have it installed on their machine and have the knowledge to run the files. Later in the development the python program will be compiled into a .exe which removes the requirement of having python installed. Since the program will be created and tested in the Windows OS, any computer running the OS will work with the program. Due to the simple and barebones nature of the project, the user does not need a particularly high end or powerful computer, as long as there is spare storage space to house the program as well as to save and open the text file then the application will work perfectly fine.</p>
+
+<h2>Skills required</h2>
+<p>The program will be written in Python3 using Pyqt5 (for the GUI) and potentially NumPy, however that is not finalised. Creating the project would require beginner to intermediate knowledge of python and having previous experience in creating Python applications with sort features would greatly speed up the creation of the program. Pyqt5 comes with an application that lets the user design their own GUI, which if used would make for a much better and streamlined process.</p>
+<p>Since the requirement of python knowledge is not something that requires years of experience with the language, it would not be difficult to quickly build those skills due to the large number of online courses and tutorials.
+The most difficult part of programming the solution would be the sort features, which are the most advanced requirement for creating the program.</p>
+
+<h2>Outcome</h2>
+<p>If successful, the project would be used by the intended users to stop or prevent being overwhelmed with music that they are planning to listen to by giving them a central location to view the lists they have created, as well as a sorting feature so they can view the music much easier. Since the music will be listed in one location, the user can refer to it if they forget which eliminates any music being left behind or forgotten. However, since the solution relies on user input to function, if the user forgets or incorrectly enters data then the project will be less successful.</p>
+
+</div>
+</div>
+</body>
+        </html>
